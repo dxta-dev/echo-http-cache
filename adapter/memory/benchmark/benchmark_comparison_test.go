@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/allegro/bigcache"
-	cache "github.com/victorspringer/http-cache"
-	"github.com/victorspringer/http-cache/adapter/memory"
+	cache "github.com/dxta-dev/echo-http-cache"
+	"github.com/dxta-dev/echo-http-cache/adapter/memory"
 )
 
 const maxEntrySize = 256

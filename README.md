@@ -1,5 +1,4 @@
-# http-cache
-[![Build Status](https://travis-ci.org/victorspringer/http-cache.svg?branch=master)](https://travis-ci.org/victorspringer/http-cache) [![Coverage Status](https://coveralls.io/repos/github/victorspringer/http-cache/badge.svg?branch=master)](https://coveralls.io/github/victorspringer/http-cache?branch=master) [![](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat)](https://godoc.org/github.com/victorspringer/http-cache)
+# echo-http-cache
 
 This is a high performance Golang HTTP middleware for server-side application layer caching, ideal for REST APIs.
 
@@ -10,7 +9,7 @@ The memory adapter minimizes GC overhead to near zero and supports some options 
 ## Getting Started
 
 ### Installation
-`go get github.com/victorspringer/http-cache`
+`go get github.com/dxta-dev/echo-http-cache`
 
 ### Usage
 This is an example of use with the memory adapter:
@@ -23,7 +22,7 @@ import (
     "net/http"
     "os"
     "time"
-    
+
     "github.com/victorspringer/http-cache"
     "github.com/victorspringer/http-cache/adapter/memory"
 )
